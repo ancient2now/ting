@@ -72,7 +72,7 @@ var last_emit = 0;
 
 function render(){
   now = Date.now();
-  dt = (last - now) / 300; 
+  dt = (last - now) / 200; 
   last = now;
   ctx.clearRect(0,0,w,h);
   fireflies.forEach(function(f){
