@@ -1,6 +1,6 @@
 # Happy Everyday Ting
  _A Pen created at CodePen.io. Original URL: [https://codepen.io/ancient2now/pen/povVQEz](https://codepen.io/ancient2now/pen/povVQEz).
 
- 20 + 1 ;-)
+ Happy Every day @Ting
 
-Its my fiancee's birthday card, she loves fireflies so thought i'd do something special for her :-)
+Its my GF's card, I hope she could be happy every day :-)
