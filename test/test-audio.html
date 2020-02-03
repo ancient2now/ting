@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>CodePen - Happy Everyday Ting</title>
   <link rel="stylesheet" href="./style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -11,6 +12,21 @@
 
 </head>
 <body>
-<div><audio src="http://music.163.com/song/media/outer/url?id=1301884692.mp3" autoplay="autoplay" loop="loop"></audio></div>
+<audio id="vd" autoplay loop controls="controls">
+  <source src="http://q4isv1xds.bkt.clouddn.com/Triodesign.mp3" type="audio/mp3"></source>
+</audio>
+
+<!-- <script>
+  function toggleSound() {
+      var music = document.getElementById("vd");//获取ID  
+      if (music.paused) { //判读是否播放  
+          music.paused=false;
+          music.play(); //没有就播放 
+      }         
+}
+// toggleSound();
+setInterval("toggleSound()",1);
+</script> -->
+
 </body>
 </html>
