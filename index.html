@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <script>
-    var isPlay = true;
+    var isPlay = false;
     var isMusicOne = true;
     function playMusic() {
       console.log("isPlay: " + isPlay + "; isMusicOne: " + isMusicOne);
@@ -40,13 +40,13 @@
   <audio id="music1" src="http://music.163.com/song/media/outer/url?id=404610.mp3" autoplay="autoplay"
   loop="loop"></audio>
 <audio id="music2" src="http://music.163.com/song/media/outer/url?id=33316484.mp3" loop="loop"></audio>
-  <div class="container">
+  <div onclick="playMusic()" class="container">
     <div class="card">
       <!--     <div class="envelope"></div> -->
       <h1>Happy Valentine's Day </h1>
       <br />
       <h2><em>To Ting</em></h2>
-      <div onclick="playMusic()" class="stable-heart"></div>
+      <div class="stable-heart"></div>
     </div>
   </div>
 
